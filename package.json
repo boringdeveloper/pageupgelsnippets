@@ -1,0 +1,42 @@
+{
+  "name": "pageupgelsnippets",
+  "displayName": "PageUpGelSnippets",
+  "description": "Snippets for PageUP GEL",
+  "version": "0.0.1",
+  "license": "MIT",
+  "keywords": [
+    "snippets",
+    "react",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boringdeveloper/pageupgelsnippets"
+  },
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}

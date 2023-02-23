@@ -1,0 +1,130 @@
+{
+  "PageUpGelContainer": {
+    "scope": "typescriptreact",
+    "prefix": "pugcontainer",
+    "body": [
+      "import { container } from '@pageup/gel/src/components/core';",
+      "import { css } from './style.css.js';",
+      "",
+      "export const { ${1} } = container(",
+      "\t'${1}',",
+      "\tz => ({ }),",
+      "\tprops => {",
+      "\t\treturn <div>${1}</div>;",
+      "\t},",
+      ");",
+      ""
+    ],
+    "description": "Create a PageUp GEL Component using container"
+  },
+  "PageUpGelComponent": {
+    "scope": "typescriptreact",
+    "prefix": "pugcomponent",
+    "body": [
+      "import { component } from '@pageup/gel/src/components/core';",
+      "import { css } from './style.css.js';",
+      "",
+      "export const { ${1} } = component(",
+      "\t'${1}',",
+      "\tz => ({ }),",
+      "\tprops => {",
+      "\t\treturn <div>${1}</div>;",
+      "\t},",
+      ");",
+      ""
+    ],
+    "description": "Create a PageUp GEL Component using component"
+  },
+  "PageUpGelPage": {
+    "scope": "typescriptreact",
+    "prefix": "pugpage",
+    "body": [
+      "import { page } from '@pageup/gel/src/components/core';",
+      "import { css } from './style.css.js';",
+      "",
+      "export const { ${1} } = page(",
+      "\t'${1}',",
+      "\tz => ({ }),",
+      "\tprops => {",
+      "\t\treturn <div>${1}</div>;",
+      "\t},",
+      ");",
+      ""
+    ],
+    "description": "Create a PageUp GEL Page using page"
+  },
+  "PageUpGelContainerX": {
+    "scope": "typescriptreact",
+    "prefix": "pugcontainerx",
+    "body": [
+      "import { containerX } from '@pageup/gel/src/components/core';",
+      "import { css } from './style.css.js';",
+      "",
+      "interface ${1}Props { }",
+      "",
+      "export const { ${1} } = containerX<${1}Props>()(",
+      "\t'${1}',",
+      "\tz => ({ }),",
+      "\tprops => {",
+      "\t\treturn <div>${1}</div>;",
+      "\t},",
+      ");",
+      ""
+    ],
+    "description": "Create a PageUp GEL Component using containerX"
+  },
+  "PageUpGelComponentX": {
+    "scope": "typescriptreact",
+    "prefix": "pugcomponentx",
+    "body": [
+      "import { componentX } from '@pageup/gel/src/components/core';",
+      "import { css } from './style.css.js';",
+      "",
+      "interface ${1}Props { }",
+      "",
+      "export const { ${1} } = componentX<${1}Props>()(",
+      "\t'${1}',",
+      "\tz => ({ }),",
+      "\tprops => {",
+      "\t\treturn <div>${1}</div>;",
+      "\t},",
+      ");",
+      ""
+    ],
+    "description": "Create a PageUp GEL Component using componentX"
+  },
+  "PageUpGelPageX": {
+    "scope": "typescriptreact",
+    "prefix": "pugpagex",
+    "body": [
+      "import { pageX } from '@pageup/gel/src/components/core';",
+      "import { css } from './style.css.js';",
+      "",
+      "interface ${1}Props { }",
+      "",
+      "export const { ${1} } = pageX<${1}Props>()(",
+      "\t'${1}',",
+      "\tz => ({ }),",
+      "\tprops => {",
+      "\t\treturn <div>${1}</div>;",
+      "\t},",
+      ");",
+      ""
+    ],
+    "description": "Create a PageUp GEL Page using pageX"
+  },
+  "PageUpGelCX": {
+    "scope": "typescript",
+    "prefix": "pugcx",
+    "body": [
+      "import { cx, styleExportProvider } from '@pageup/gel/src/styling';",
+      "",
+      "const container = cx({${1}});",
+      "",
+      "export const { css } = styleExportProvider({",
+      "\tcontainer,",
+      "});",
+      ""
+    ]
+  }
+}
