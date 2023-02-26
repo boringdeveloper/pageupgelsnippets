@@ -12,4 +12,3 @@ All notable changes to the "pageupgelsnippets" extension will be documented in t
 
 - Default component name is set to the relative directory name.
 - Added tab stops for `z` and `props`.
-- Migrated the extension source code from JS to TS.
