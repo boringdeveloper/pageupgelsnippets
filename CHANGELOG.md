@@ -2,8 +2,14 @@
 
 All notable changes to the "pageupgelsnippets" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+# Released
 
-## [Unreleased]
+## [0.0.1] - 2022-02-24
 
-- Initial release
+- PageUp GEL Snippets for component, container, page and cx.
+
+## [0.1.0] - 2022-02-26
+
+- Default component name is set to the relative directory name.
+- Added tab stops for `z` and `props`.
+- Migrated the extension source code from JS to TS.

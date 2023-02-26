@@ -1,13 +1,16 @@
 {
   "name": "pageupgelsnippets",
-  "displayName": "PageUpGelSnippets",
-  "description": "Snippets for PageUP GEL",
+  "displayName": "PageUp GEL Snippets",
+  "description": "Extension for PageUP GEL snippets in JS/TS.",
   "version": "0.0.1",
+  "publisher": "nickrdev",
   "license": "MIT",
   "keywords": [
     "snippets",
     "react",
-    "typescript"
+    "typescript",
+    "pageup",
+    "gel"
   ],
   "repository": {
     "type": "git",
