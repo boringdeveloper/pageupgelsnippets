@@ -2,7 +2,7 @@
   "name": "pageupgelsnippets",
   "displayName": "PageUp GEL Snippets",
   "description": "Extension for PageUP GEL snippets in JS/TS.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "publisher": "nickrdev",
   "license": "MIT",
   "keywords": [

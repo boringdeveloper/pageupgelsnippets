@@ -17,3 +17,8 @@ All notable changes to the "pageupgelsnippets" extension will be documented in t
 
 - Update the import from `@pageup` to `@pageuppeopleorg`
 - Add sample props
+
+## [0.2.1] - 2023-09-27
+
+- Page should have only a 'Page' name
+- Fixed some bugs
