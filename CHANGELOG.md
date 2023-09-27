@@ -12,3 +12,8 @@ All notable changes to the "pageupgelsnippets" extension will be documented in t
 
 - Default component name is set to the relative directory name.
 - Added tab stops for `z` and `props`.
+
+## [0.2.0] - 2023-09-27
+
+- Update the import from `@pageup` to `@pageuppeopleorg`
+- Add sample props
