@@ -5,14 +5,16 @@
 `pugcontainer`
 
 ```ts
-import { container } from "@pageup/gel/src/components/core";
-import { css } from "./style.css.js";
+import { container } from "@pageuppeopleorg/gel/src/components/core";
+import { css } from "./styles.css";
 
-export const {} = container(
-  "",
-  (z) => ({}),
+export const { Sample } = container(
+  "Sample",
+  (z) => ({
+    name: z.string(),
+  }),
   (props) => {
-    return <div></div>;
+    return <div>{props.name}</div>;
   }
 );
 ```
@@ -20,14 +22,16 @@ export const {} = container(
 `pugcomponent`
 
 ```ts
-import { component } from "@pageup/gel/src/components/core";
-import { css } from "./style.css.js";
+import { component } from "@pageuppeopleorg/gel/src/components/core";
+import { css } from "./styles.css";
 
-export const {} = component(
-  "",
-  (z) => ({}),
+export const { Sample } = component(
+  "Sample",
+  (z) => ({
+    name: z.string(),
+  }),
   (props) => {
-    return <div></div>;
+    return <div>{props.name}</div>;
   }
 );
 ```
@@ -35,14 +39,16 @@ export const {} = component(
 `pugpage`
 
 ```ts
-import { page } from "@pageup/gel/src/components/core";
-import { css } from "./style.css.js";
+import { page } from "@pageuppeopleorg/gel/src/components/core";
+import { css } from "./styles.css";
 
-export const {} = page(
-  "",
-  (z) => ({}),
+export const { Sample } = page(
+  "Sample",
+  (z) => ({
+    name: z.string(),
+  }),
   (props) => {
-    return <div></div>;
+    return <div>{props.name}</div>;
   }
 );
 ```
@@ -50,16 +56,20 @@ export const {} = page(
 `pugcontainerx`
 
 ```ts
-import { containerX } from "@pageup/gel/src/components/core";
-import { css } from "./style.css.js";
+import { containerX } from "@pageuppeopleorg/gel/src/components/core";
+import { css } from "./styles.css";
 
-interface Props {}
+interface Props {
+  name: string;
+}
 
-export const {} = containerX<Props>()(
-  "",
-  (z) => ({}),
+export const { Sample } = containerX<Props>()(
+  "Sample",
+  (z) => ({
+    name: z.string(),
+  }),
   (props) => {
-    return <div></div>;
+    return <div>{props.name}</div>;
   }
 );
 ```
@@ -67,16 +77,18 @@ export const {} = containerX<Props>()(
 `pugcomponentx`
 
 ```ts
-import { componentX } from "@pageup/gel/src/components/core";
-import { css } from "./style.css.js";
+import { componentX } from "@pageuppeopleorg/gel/src/components/core";
+import { css } from "./styles.css";
 
 interface Props {}
 
-export const {} = componentX<Props>()(
-  "",
-  (z) => ({}),
+export const { Sample } = componentX<Props>()(
+  "Sample",
+  (z) => ({
+    name: z.string(),
+  }),
   (props) => {
-    return <div></div>;
+    return <div>{props.name}</div>;
   }
 );
 ```
@@ -84,16 +96,18 @@ export const {} = componentX<Props>()(
 `pugpagex`
 
 ```ts
-import { pageX } from "@pageup/gel/src/components/core";
-import { css } from "./style.css.js";
+import { pageX } from "@pageuppeopleorg/gel/src/components/core";
+import { css } from "./styles.css";
 
 interface Props {}
 
-export const {} = pageX<Props>()(
-  "",
-  (z) => ({}),
+export const { Sample } = pageX<Props>()(
+  "Sample",
+  (z) => ({
+    name: z.string(),
+  }),
   (props) => {
-    return <div></div>;
+    return <div>{props.name}</div>;
   }
 );
 ```
@@ -101,7 +115,7 @@ export const {} = pageX<Props>()(
 `pugcx`
 
 ```ts
-import { cx, styleExportProvider } from "@pageup/gel/src/styling";
+import { cx, styleExportProvider } from "@pageuppeopleorg/gel/src/styling";
 
 const container = cx({});
 
