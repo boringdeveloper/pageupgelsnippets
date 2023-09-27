@@ -22,3 +22,7 @@ All notable changes to the "pageupgelsnippets" extension will be documented in t
 
 - Page should have only a 'Page' name
 - Fixed some bugs
+
+## [0.2.2] - 2023-09-27
+
+- Fix indentation
